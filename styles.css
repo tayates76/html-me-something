@@ -1,0 +1,50 @@
+body {
+    /* background-image: url("https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat center center fixed;
+    background-size: cover; */
+    background: linear-gradient(rgb(172, 171, 171), rgb(255, 253, 253));
+ 
+}
+
+#content {
+    filter: brightness(85%);
+    font-family: "IBM Plex Sans Condensed";
+}
+
+.intro-header {
+        float: right;
+        width: 100%;
+        /*background-image: url(images/start.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%*/
+}
+
+div.intro-header p {
+    font-size: 25px;
+    max-width: 100%;
+    /* height: 900px; */
+    background-image: url(images/start.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-justify: right;
+    margin: 25px;
+    padding: 25px;
+    color: orangered;
+  }
+
+.link {
+    color: rebeccapurple;
+    display: inline;
+}
+
+footer {
+    color: black;
+    padding: 100px;
+    font-style: italic;
+    font-family: "Comic Sans Script";
+}
